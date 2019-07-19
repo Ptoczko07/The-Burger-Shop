@@ -1,0 +1,16 @@
+.DescriptionItems {
+  display        : flex;
+  flex-direction : row;
+  justify-content: space-around;
+  width          : 80%;
+  margin         : auto;
+  padding-top    : 10px;
+}
+
+@media(max-width: 600px){
+  .DescriptionItems{
+    width         : 100%;
+    flex-direction: column;
+    
+  }
+}

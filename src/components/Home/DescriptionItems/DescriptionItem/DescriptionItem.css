@@ -1,0 +1,18 @@
+.DescriptionItem{
+  text-align: center;
+  width     : 30%;
+}
+
+.img{ 
+  width: 100%;
+}
+
+@media(max-width: 600px){
+  .DescriptionItem{
+    width: 90%;
+  }
+
+  .img {
+    width: 90%;
+  }
+}
